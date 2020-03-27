@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/tickets.css">
+    <title>MH-tickets</title>
+</head>
+<body>
+    <header>
+        <nav class="first-nav">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#">English</a>
+            <a href="#">My Page</a>
+            <a href="#">Log out</a>
+        </nav>
+
+        <nav class="second-nav">
+            <img src="/img/logo.png" alt="">
+            <div class="right-second-nav">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="tickets.html">Tickets</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <h1>Select Your Tickecks</h1>
+            <hr>
+            <p><span class="colored-text">Step 1:</span> Please select the day when you want to join the CC Global Summit 2015</p>
+            <table>
+                <tr>
+                  <th>Ticket</th>
+                  <th>One-day ticket</th>
+                  <th colspan="2">2day ticket</th>
+                  <th>CC Affiliate/Partner</th>
+                </tr>
+                <tr>
+                  <a href=""><td>Date</td></a>
+                  <td>15th Oct (Thur)</td>
+                  <td>16th Oct (Fri)</td>
+                  <td>15th-16th Oct (Thur-Fri)</td>
+                  <td>15th-16th Oct (Thur-Fri)</td>
+                </tr>
+                <tr class="colored-text">
+                    <td>Normal</td>
+                    <td><label for="ticket1">$70</label>
+                        <input type="radio" id="ticket1" name="ticket" value="seventy"> 
+                    </td>
+                    <td><label for="ticket2">$70</label>
+                        <input type="radio" id="ticket2" name="ticket" value="seventy"> 
+                    </td>
+                    <td><label for="ticket3">$120</label>
+                        <input type="radio" id="ticket3" name="ticket" value="hundred-and-twenty"> 
+                    </td>
+                    <td><label for="ticket4">$70</label>
+                        <input type="radio" id="ticket4" name="ticket" value="eighty"> 
+                    </td>
+                </tr>
+                <tr class="colored-text">
+                    <td>Student</td>
+                    <td><label for="ticket5">$50</label>
+                        <input type="radio" id="ticket5" name="ticket-day2" value="fifty"> </td>
+                    <td><label for="ticket6">$70</label>
+                        <input type="radio" id="ticket6" name="ticket-day2" value="seventy"> </td>
+                    <td><label for="ticket7">$100</label>
+                        <input type="radio" id="ticket7" name="ticket-day2" value="hundred"> </td>
+                    <td>
+                        <label for="ticket4">$80</label>
+                        <input type="radio" id="ticket4" name="ticket-day2" value="eighty"> 
+                    </td>
+                </tr>
+
+              </table>
+        </section>
+        <section class="section2">
+            <h1>Select Your Lunch</h1>
+            <hr>
+            <p><span class="colored-text">Step 2:</span> Please select your lunch for registered date. There will be no further costs for the lunch</p>
+            <div class="flex-item">
+                <h5>15th Oct (Thur)</h5>
+                <form>
+                    
+                    <input type="radio" id="meal1" name="meal" value="chicken">
+                    <label for="meal1"> Fried Chicken, Mac and Cheese</label><br>
+                    <input type="radio" id="meal2" name="meal" value="taco">
+                    <label for="meal2">Fajita and Taco Bar</label><br>
+                    <input type="radio" id="meal3" name="meal" value="pizza">
+                    <label for="vehicle3">Pizza</label><br>
+                  </form>
+
+            </div>
+            <div class="flex-item">
+                <h5>16th Oct (Thur)</h5>
+                <form>
+                    
+                    <input type="radio" id="meal1" name="meal" value="chicken">
+                    <label for="meal1">Grilled Chicken and Cherry Tomato Skewers</label><br>
+                    <input type="radio" id="meal2" name="meal" value="vegetable">
+                    <label for="meal2">Vegetarian Vegetable and Couscous Salad</label><br>
+                    <input type="radio" id="meal3" name="meal" value="pork">
+                    <label for="vehicle3">pork sandwiches</label><br>
+                  </form>
+
+            </div>
+                <button>SUBMIT</button>        
+        </section>
+    </main>
+</body>
+</html>

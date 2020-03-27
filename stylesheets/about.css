@@ -1,0 +1,150 @@
+body {
+    overflow-x: hidden;
+}
+.first-nav {
+    width: 100%;
+    background-color: #272a31;
+    padding: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first-nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+}
+
+.second-nav {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.right-second-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    margin: 1em;
+}
+
+.right-second-nav a {
+    color: #272a31;
+    text-decoration: none;
+}
+
+.second-nav img {
+    width: 15%;
+    margin-left: 1.5em;
+}
+
+.about-main {
+    background-image: url("https://www.carbonads.net/hubfs/carbon/images/hero-bg-home.svg");
+    background-position: center;
+    background-size: initial;
+    text-align: center;
+    height: 80vh;
+}
+
+.about-page {
+    padding-top: 3.5em;
+    width: 60%;
+    margin: auto;
+}
+
+hr {
+    width: 5%;
+    height: 4px;
+    background-color: #ec5242;
+    border: none;
+}
+
+.about-page h1 {
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    color: #ec5242;
+    margin: 0;
+    padding: 0;
+}
+
+.about-page p {
+    padding: 1em;
+    background-color: #ffffff;
+    border: 1px solid #9CA2AC;
+    font-family: 'Lato', sans-serif;;
+}
+
+.contact-email {
+    padding-top: 1em;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+.section4 {
+    height: 95vh;
+    text-align: center;
+    padding-top: 3em;
+    margin-top: 0;
+    border-bottom: 1px solid #9CA2AC;
+    
+}
+.section4 h4 {
+    color: #272a31;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.section4 p {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.logo {
+    padding: 1em;
+    border: 1px solid #9CA2AC;
+}
+
+.meetings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.past-meetings {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqygapkGoZJN8zL9rxM_VF__fkmfiefm3PWIEiieYKIZ0Y6kpM");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 30%;
+    margin-right: 2em;
+}
+.section5 {
+    padding: 3em;
+    margin-bottom: 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+.section5 h1 {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.past-meetings span {
+    color: #d3d3d3;
+
+}
+
+.year {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.about-footer {
+    background-color: #272a31;
+    padding: 3em;
+}

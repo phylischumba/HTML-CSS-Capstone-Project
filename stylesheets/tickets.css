@@ -1,0 +1,155 @@
+body {
+    overflow-x: hidden;
+}
+
+main {
+    padding-top: 4em;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   z-index: 1;
+}
+
+.first-nav {
+    width: 100%;
+    background-color: #272a31;
+    padding: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.first-nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+}
+
+.second-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.right-second-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    margin: 1em;
+}
+
+.right-second-nav a {
+    color: #272a31;
+    text-decoration: none;
+}
+
+.second-nav img {
+    width: 15%;
+    margin-left: 1.5em;
+}
+
+.section1, 
+.section2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    width: 5%;
+    height: 4px;
+    background-color: #ec5242;
+    border: none;
+}
+
+.section1 h1,
+.section2 h1 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.colored-text {
+    color: #ec5242;
+}
+
+.section1 p,
+.section2 p {
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 0.5em;
+    width: 60%;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+table {
+    border: 1px solid green;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+ th, td {
+     border: 1px solid #d2d2d2;
+    padding: 2em;
+ }
+
+ th {
+     background-color: #d2d2d2;
+     border: 1px solid #969191;
+
+ }
+
+ .flex-item {
+     width: 75%;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #969191;
+    margin-bottom: 2em;
+ }
+
+
+ .flex-item h5 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     background-color: #d2d2d2;
+     width: 100%;
+     margin: 0;
+    
+ }
+
+ form {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2em;
+ }
+
+ label {
+     margin-right: 2em;
+ }
+
+button {
+    color: #fff;
+    background-color: #ec5242;
+    font-size: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    
+}
+
+table {
+    border: 1px solid green;
+    justify-content: center;
+}

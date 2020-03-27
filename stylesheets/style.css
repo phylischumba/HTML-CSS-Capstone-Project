@@ -1,6 +1,17 @@
 body {
     overflow-x: hidden;
 }
+
+main {
+    padding-top: 4em;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   z-index: 1;
+}
 .first-nav {
     width: 100%;
     background-color: #272a31;
@@ -11,21 +22,22 @@ body {
 
 .first-nav a {
     text-decoration: none;
-    color: white;
+    color: #d3d3d3;
     padding-right: 1em;
 }
 
 .second-nav {
     display: flex;
     justify-content: space-between;
-    margin: 1em;
+    background-color: white;
+    color: #272a31;
 }
 
 .right-second-nav {
     display: flex;
     justify-content: space-evenly;
     width: 25%;
-    
+    margin: 1em;
 }
 
 .right-second-nav a {
@@ -34,7 +46,7 @@ body {
 }
 
 .second-nav img {
-    width: 20%;
+    margin-left: 1.5em;
 }
 
 .section1 {
@@ -45,7 +57,7 @@ body {
 }
 
 .home-page {  
-    padding: 4em;  
+    padding: 3em;  
     text-align: left;
     color: #272a31;
     margin-left: 6rem;
@@ -75,6 +87,7 @@ body {
     border: 2px solid white;
     padding: 1em;
     font-size: smaller;
+    background-color: #ffffff;
 }
 #period {
     font-family: 'Oswald', sans-serif;
@@ -97,11 +110,10 @@ body {
 }
 
 .program-items {
-    width: 15%;
-    height: 20%;
+    width: 12%;
     border: 2px solid #272a31;
     background-color: #535456;
-    padding: 2em;
+    padding: 1em;
 } 
 
 .program-items p {
@@ -110,6 +122,11 @@ body {
 
 .program-items h3 {
     color: #ec5242;
+}
+
+.program-items i {
+    font-size: 4em;
+    color: #d3d3d3;
 }
 
 .all-program-link {
@@ -155,8 +172,13 @@ hr {
     padding-top: 2em;
     padding-bottom:3em;
 }
+
+.speakers img {
+    width: 40%;
+}
 .speakers {
     display: flex;
+    
 }
 
 .speakers-info {
@@ -173,10 +195,17 @@ hr {
     margin: 0;
 }
 
+.speakers-hr {
+    position: relative;
+    right: 40%;
+    height: 2px;
+}
+
 .main-footer {
     background-color: #272a31;
-    padding: 3em;
+    padding: 2em;
     text-align: center;
+    padding-bottom: 3em;
 }
 
 .partners {
@@ -188,116 +217,23 @@ hr {
     width: 10%;
     background-color: #ffffff;
     margin-right: 1em;
-
+    margin-top: 1em;
 }
 
-#united-nations {
-    width: 12%;
-}
-
-.about-main {
-    background-image: url("https://www.carbonads.net/hubfs/carbon/images/hero-bg-home.svg");
-    background-position: center;
-    background-size: initial;
-    text-align: center;
-    height: 80vh;
-}
-
-.about-page {
-    padding-top: 3.5em;
-    width: 60%;
-    margin: auto;
-}
-
-.about-page h1 {
-    font-size: 3em;
-    font-family: 'Oswald', sans-serif;
-    color: #ec5242;
-    margin: 0;
-    padding: 0;
-}
-
-.about-page p {
-    padding: 2em;
-    background-color: #ffffff;
-    border: 1px solid grey;
-    font-family: 'Lato', sans-serif;;
-}
-
-.contact-email {
-    padding-top: 1em;
-    font-size: 1em;
-    font-family: 'Lato', sans-serif;
-}
-
-.section4 {
-    height: 95vh;
-    text-align: center;
-    padding-top: 3em;
-    margin-top: 0;
-    border-bottom: 1px solid #272a31;
-    
-}
-.section4 h4 {
-    color: #272a31;
-    font-size: 2em;
-    font-weight: 500;
-    margin-bottom: 0;
-}
-
-.section4 p {
-    padding-top: 2em;
-    padding-bottom: 1em;
-    line-height: 1.5em;
-}
-
-.logo {
-    padding: 3em;
-    border: 1px solid #535456;
-}
-
-.meetings {
+footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 2em;
-}
-
-.past-meetings {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqygapkGoZJN8zL9rxM_VF__fkmfiefm3PWIEiieYKIZ0Y6kpM");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    width: 30%;
-    margin-right: 2em;
-}
-.section5 {
-    padding: 3em;
-    margin-bottom: 2em;
+    align-content: center;
+    color: #272a31;
+    background-color: #d3d3d3;
+    padding: 2em;
     font-family: 'Lato', sans-serif;
 }
 
-.section5 h1 {
-    font-weight: 500;
-    font-size: 2em;
-    margin-bottom: 0;
+footer img {
+    margin-right: 5px;
 }
 
-.past-meetings span {
-    color: #d3d3d3;
-
-}
-
-.year {
-    font-weight: 700;
-    font-size: 2em;
-}
-
-.about-footer {
-    background-color: #272a31;
-    padding: 3em;
-}
 
 
 
