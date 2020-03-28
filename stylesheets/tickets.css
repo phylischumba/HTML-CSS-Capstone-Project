@@ -1,3 +1,9 @@
+@media (max-width: 768px){
+    main {
+        font-size: small;
+        color: blue;
+    }
+}
 body {
     overflow-x: hidden;
 }
@@ -47,7 +53,7 @@ header {
 }
 
 .second-nav img {
-    width: 15%;
+    height: 60px;
     margin-left: 1.5em;
 }
 
@@ -152,4 +158,15 @@ button {
 table {
     border: 1px solid green;
     justify-content: center;
+}
+
+.tickets-footer {
+    background-color: #272a31;
+    padding: 2em;
+    color: #d3d3d3;
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 }

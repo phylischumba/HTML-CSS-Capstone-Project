@@ -1,3 +1,62 @@
+@media (max-width: 768px) {
+    section.about-page {
+        width: 100%;
+        color: #272a31;
+    }
+
+    section.about-page p {
+        font-size: 15px;
+        width: 92%;
+    }
+
+    section.about-page h1 {
+        font-size: 20px !important;
+       
+    }
+
+    .section4 {
+        text-align: center;
+        margin: 2em;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    .meetings {
+        display: flex;
+        flex-direction: column;
+    }
+    div.past-meetings,
+    div.past-meetings1 {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    div.past-meetings1 {
+        right: 15px;
+    }
+}
+
+@media(max-width: 1100px){
+    section.about-page h1 {
+        font-size: 2em;
+    } 
+
+    div.contact-email {
+        padding-top: 0;
+        padding-bottom: 2em;
+    }
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   z-index: 1;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -18,7 +77,7 @@ body {
 .second-nav {
     display: flex;
     justify-content: space-between;
-   
+   background-color: white;
 }
 
 .right-second-nav {
@@ -34,22 +93,24 @@ body {
 }
 
 .second-nav img {
-    width: 15%;
+    height: 60px;
     margin-left: 1.5em;
 }
 
 .about-main {
-    background-image: url("https://www.carbonads.net/hubfs/carbon/images/hero-bg-home.svg");
-    background-position: center;
-    background-size: initial;
     text-align: center;
     height: 80vh;
+    padding-top: 2.5em;
 }
 
 .about-page {
+    background-image: url("https://www.carbonads.net/hubfs/carbon/images/hero-bg-home.svg");
+    background-position: center;
+    background-size: initial;
     padding-top: 3.5em;
-    width: 60%;
+    width: 100%;
     margin: auto;
+    height: 100%;
 }
 
 hr {
@@ -60,14 +121,17 @@ hr {
 }
 
 .about-page h1 {
+    width: 65%;
     font-size: 3em;
     font-family: 'Oswald', sans-serif;
     color: #ec5242;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
-.about-page p {
+.with-border {
+    width: 70%;
+    margin: auto;
     padding: 1em;
     background-color: #ffffff;
     border: 1px solid #9CA2AC;
@@ -81,14 +145,14 @@ hr {
 }
 
 .section4 {
-    height: 95vh;
     text-align: center;
     padding-top: 3em;
+    padding-bottom: 3em;
     margin-top: 0;
     border-bottom: 1px solid #9CA2AC;
     
 }
-.section4 h4 {
+.section4 h1 {
     color: #272a31;
     font-size: 2em;
     font-weight: 500;
@@ -111,10 +175,12 @@ hr {
     justify-content: center;
     align-items: center;
     margin-top: 2em;
+    color: #d3d3d3
+    
 }
 
 .past-meetings {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqygapkGoZJN8zL9rxM_VF__fkmfiefm3PWIEiieYKIZ0Y6kpM");
+    background-image: url("https://hslda.org/content/hs/international/EACH.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,6 +188,23 @@ hr {
     width: 30%;
     margin-right: 2em;
 }
+
+.past-meetings1 {
+    background-image: url('https://hslda.org/content/hs/international/Conference1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 30%;
+    position: relative;
+}
+
+.meeting-spans {
+    position: relative;
+    top: 4em;
+    font-weight: 700;
+}
+
 .section5 {
     padding: 3em;
     margin-bottom: 2em;
@@ -146,5 +229,10 @@ hr {
 
 .about-footer {
     background-color: #272a31;
-    padding: 3em;
+    padding: 2em;
+    color: #d3d3d3;
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
 }
