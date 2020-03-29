@@ -59,5 +59,5 @@ Give a ⭐️ if you like this project!!
 
 ## 📝 License
 
-- The original design is licenced under the [Creative Commons 4.0 license] (https://creativecommons.org/licenses/by-nc/4.0/).
+- The original design is licenced under the [Creative Commons 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
 
