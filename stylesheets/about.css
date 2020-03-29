@@ -1,11 +1,35 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .small-nav label {
+    display: inherit !important;
+    color:  #ec5242;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    padding: 10px;
+  }
+
+  .small-nav ul li {
+    display: block;
+  }
+  
+  .small-nav ul {
+    display: none;
+  }
+  .small-nav input:checked ~ ul {
+    display: block;
+  }
+
+  header {
+    display: none;
+  }
+
   section.about-page {
     width: 100%;
     color: #272a31;
   }
 
   section.about-page p {
-    font-size: 15px;
+    font-size: 18px;
     width: 92%;
   }
 
@@ -13,13 +37,13 @@
     font-size: 20px !important;
   }
 
-  .section4 {
-    text-align: center;
-    margin: 2em;
+  div.contact-email {
+    margin-top: 3.5em;
   }
 
-  .logo {
-    width: 70%;
+  .section4 {
+    text-align: center;  
+    margin: 1em; 
   }
 
   .meetings {
@@ -95,6 +119,45 @@ body {
 .second-nav img {
   height: 60px;
   margin-left: 1.5em;
+}
+
+.small-screen-nav {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+.small-nav {
+  width: 50%;
+  position: sticky;
+  top: 0;
+  background: #fff;
+
+}
+
+.small-nav label, #hamburger {
+  display: none;
+}
+
+.small-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+.small-nav ul li {
+  padding: 5px;
+}
+.small-nav ul li a {
+  color: #272a31;
+  text-decoration: none;
+}
+
+.small-screen-nav img {
+  width: 25%;
+  height: 60px;
+  margin-right: 10px;
 }
 
 .about-main {
@@ -175,26 +238,26 @@ hr {
   justify-content: center;
   align-items: center;
   margin-top: 2em;
-  color: #d3d3d3;
+  color: #272a31;
 }
 
 .past-meetings {
-  background-image: url("https://hslda.org/content/hs/international/EACH.jpg");
+  background-image: url("https://www.freecodecamp.org/news/content/images/2019/08/meetup-talk.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
-  width: 30%;
+  height: 300px;
+  width: 28%;
   margin-right: 2em;
 }
 
 .past-meetings1 {
-  background-image: url('https://hslda.org/content/hs/international/Conference1.jpg');
+  background-image: url('https://www.coding-girls.com/sites/default/files/styles/cms_bootstrap_1_2/public/blog-images/Meetup%20at%20math%20school.jpg?itok=TCBpziap');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
-  width: 30%;
+  height: 300px;
+  width: 28%;
   position: relative;
 }
 
