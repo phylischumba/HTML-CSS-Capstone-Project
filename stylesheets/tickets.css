@@ -1,11 +1,11 @@
 @media (max-width: 768px) {
   main {
     font-size: small;
-    color: blue;
   }
+
   .small-nav label {
     display: inherit !important;
-    color:  #ec5242;
+    color: #ec5242;
     font-weight: bold;
     font-style: normal;
     font-size: 2em;
@@ -15,10 +15,11 @@
   .small-nav ul li {
     display: block;
   }
-  
+
   .small-nav ul {
     display: none;
   }
+
   .small-nav input:checked ~ ul {
     display: block;
   }
@@ -28,15 +29,16 @@
   }
 
   section.section1 p,
-  section.section2 p{
-   width: 90%;
+  section.section2 p {
+    width: 90%;
   }
 
   table {
     width: 100%;
   }
 
-  td, th {
+  td,
+  th {
     padding: 1.2em !important;
   }
 
@@ -48,6 +50,8 @@
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #272a31;
 }
 
 main {
@@ -98,7 +102,6 @@ header {
   margin-left: 1.5em;
 }
 
-
 .small-screen-nav {
   background-color: #fff;
   width: 100%;
@@ -107,26 +110,33 @@ header {
   position: fixed;
   top: 0;
 }
+
 .small-nav {
   width: 50%;
   position: sticky;
   top: 0;
   background: #fff;
-
 }
 
-.small-nav label, #hamburger {
+label {
+  margin-right: 2em;
+}
+
+.small-nav label,
+#hamburger {
   display: none;
 }
 
 .small-nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
+
 .small-nav ul li {
   padding: 5px;
 }
+
 .small-nav ul li a {
   color: #272a31;
   text-decoration: none;
@@ -138,10 +148,10 @@ header {
   margin-right: 10px;
 }
 
-.section1,
-.section2 {
-  text-align: center;
-  
+.section1 {
+  background-color: #d3d3d3;
+  padding: 2em;
+  padding-bottom: 4em;
 }
 
 hr {
@@ -156,6 +166,7 @@ hr {
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .colored-text {
@@ -190,7 +201,7 @@ td {
 }
 
 th {
-  background-color: #d2d2d2;
+  background-color: #969191;
   border: 1px solid #969191;
 }
 
@@ -203,6 +214,16 @@ th {
   margin: auto;
   border: 1px solid #969191;
   margin-bottom: 2em;
+}
+
+.rotated-div {
+  background-color: #ec5242;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  bottom: 20px;
+  transform: rotate(-45deg);
 }
 
 .flex-item h5 {
@@ -219,10 +240,6 @@ form {
   justify-content: center;
   align-content: center;
   padding: 2em;
-}
-
-label {
-  margin-right: 2em;
 }
 
 button {

@@ -1,5 +1,6 @@
 # HTML-CSS-Capstone-Project
 This is a repository for the final project in the first section of the main technical curriculum  section in Microverse Program.
+It is a homeschoolers meetup site that contains 3 pages all linked to each other
 > 
 
 > ![screenshot](img/image1.png)

@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   .small-nav label {
     display: inherit !important;
-    color:  #ec5242;
+    color: #ec5242;
     font-weight: bold;
     font-style: normal;
     font-size: 2em;
@@ -11,10 +11,11 @@
   .small-nav ul li {
     display: block;
   }
-  
+
   .small-nav ul {
     display: none;
   }
+
   .small-nav input:checked ~ ul {
     display: block;
   }
@@ -42,8 +43,8 @@
   }
 
   .section4 {
-    text-align: center;  
-    margin: 1em; 
+    text-align: center;
+    margin: 1em;
   }
 
   .meetings {
@@ -129,26 +130,29 @@ body {
   position: fixed;
   top: 0;
 }
+
 .small-nav {
   width: 50%;
   position: sticky;
   top: 0;
   background: #fff;
-
 }
 
-.small-nav label, #hamburger {
+.small-nav label,
+#hamburger {
   display: none;
 }
 
 .small-nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
+
 .small-nav ul li {
   padding: 5px;
 }
+
 .small-nav ul li a {
   color: #272a31;
   text-decoration: none;
