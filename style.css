@@ -2,6 +2,11 @@
   .speakers {
     font-size: 13px;
   }
+
+  div.home-page h1 {
+    font-size: 4em;
+    width: 90%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 999px) {
@@ -16,9 +21,13 @@
     font-size: smaller;
     grid-template-columns: 48% 48% !important;
   }
+
+  article.program-items {
+    width: 100%;
+  }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   div.speakers img {
     width: 25% !important;
   }
@@ -113,6 +122,7 @@
 
 body {
   overflow-x: hidden;
+  
 }
 
 header {
@@ -120,6 +130,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
+  font-family: 'Lato', sans-serif;
 }
 
 .first-nav {
@@ -212,6 +223,7 @@ footer h2 {
   background-position: center;
   background-size: initial;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .home-page {
@@ -222,10 +234,10 @@ footer h2 {
 }
 
 .home-page h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 400;
   color: #ec5242;
 }
@@ -241,7 +253,6 @@ footer h2 {
 
 .home-page p {
   width: 50%;
-  font-family: 'Lato', sans-serif;
   border: 2px solid white;
   padding: 1em;
   font-size: smaller;
@@ -259,6 +270,7 @@ footer h2 {
   background-color: #272a31;
   text-align: center;
   padding: 3em;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-program {
@@ -266,7 +278,7 @@ footer h2 {
   justify-content: center;
   align-items: center;
   margin-top: 3em;
-  font-family: 'Lato', sans-serif;
+  
 }
 
 .program-items {
@@ -297,6 +309,7 @@ footer h2 {
 
 .section2 h1 {
   margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 hr {
@@ -315,6 +328,7 @@ hr {
   text-align: center;
   font-weight: 500;
   margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 .featured-speakers {
@@ -377,6 +391,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .partners img {

@@ -35,11 +35,13 @@
 
   table {
     width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
   }
 
   td,
   th {
-    padding: 1.2em !important;
+    padding: 1em !important;
   }
 
   div.flex-item {
@@ -167,6 +169,7 @@ hr {
   font-size: 30px;
   margin-bottom: 0;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .colored-text {
@@ -196,7 +199,7 @@ table {
 
 th,
 td {
-  border: 1px solid #d2d2d2;
+  border: 1px solid #272a31;
   padding: 2em;
 }
 
