@@ -19,7 +19,7 @@ It is a homeschoolers meetup site that contains 3 pages all linked to each other
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Phylis05/HTML-CSS-Capstone-Project/609dc505424d5cfd471be57fa265ca5f41daaa9d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Phylis05/HTML-CSS-Capstone-Project/f44f65ffee1bdc6ae07347482a9a52484a9be30a/index.html)
 
 ## Getting Started
 
