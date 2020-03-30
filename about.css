@@ -176,10 +176,11 @@ body {
   background-image: url("https://www.carbonads.net/hubfs/carbon/images/hero-bg-home.svg");
   background-position: center;
   background-size: initial;
-  padding-top: 3.5em;
+  padding-top: 4em;
   width: 100%;
   margin: auto;
   height: 100%;
+  margin-top: 2em;
 }
 
 hr {

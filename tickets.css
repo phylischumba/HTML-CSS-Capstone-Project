@@ -205,7 +205,7 @@ td {
 
 th {
   background-color: #969191;
-  border: 1px solid #969191;
+ 
 }
 
 .flex-item {
@@ -232,7 +232,7 @@ th {
 .flex-item h5 {
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: #d2d2d2;
+  background-color: #d3d3d3;
   width: 100%;
   margin: 0;
 }
