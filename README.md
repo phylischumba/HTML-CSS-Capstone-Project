@@ -19,11 +19,7 @@ This is a repository for the final project in the first section of the main tech
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Phylis05/HTML-CSS-Capstone-Project/f44f65ffee1bdc6ae07347482a9a52484a9be30a/index.html)
-- CSS,
-- Linters
-
-## Live Demo
+[Live Demo Link](https://rawcdn.githack.com/Phylis05/HTML-CSS-Capstone-Project/d1bba0fbb39e241fdcdc7ba736bd011ac8e116ef/index.html)
 
 ## Getting Started
 
@@ -64,12 +60,6 @@ Give a ⭐️ if you like this project!!
 - W3Schools
 - The Odin Project 
 - [Cindy Shin](https://www.behance.net/adagio07) in Behance
-
-## 📝 License
-
-- The original design is licenced under the [Creative Commons 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
-- The Odin Project
-- [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 The [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) is licenced under the [Creative Commons 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licence
