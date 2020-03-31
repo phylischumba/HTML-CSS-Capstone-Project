@@ -151,6 +151,21 @@ header {
   padding-right: 2em;
 }
 
+.right-second-nav a {
+  color: #272a31;
+  text-decoration: none;
+}
+
+.all-program-link a,
+.expected-activities h1 {
+  color: #d3d3d3;
+}
+
+.small-nav ul li a {
+  color: #272a31;
+  text-decoration: none;
+}
+
 .first-nav a:hover,
 .right-second-nav a:hover {
   color: #ec5242;
@@ -170,11 +185,6 @@ header {
   justify-content: space-evenly;
   width: 25%;
   margin: 1em;
-}
-
-.right-second-nav a {
-  color: #272a31;
-  text-decoration: none;
 }
 
 .main-footer img {
@@ -210,16 +220,6 @@ header {
 
 .small-nav ul li {
   padding: 5px;
-}
-
-.all-program-link a,
-.expected-activities h1 {
-  color: #d3d3d3;
-}
-
-.small-nav ul li a {
-  color: #272a31;
-  text-decoration: none;
 }
 
 .small-screen-nav img {
@@ -295,7 +295,6 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 3em;
-  
 }
 
 .program-items {
@@ -410,7 +409,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2em; 
+  margin-top: 2em;
 }
 
 .partners i {
@@ -432,5 +431,4 @@ hr {
   padding: 2em;
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
-  
 }
