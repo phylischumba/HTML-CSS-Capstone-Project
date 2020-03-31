@@ -1,6 +1,8 @@
 # HTML-CSS-Capstone-Project
 This is a repository for the final project in the first section of the main technical curriculum  section in Microverse Program.
-It is a homeschoolers meetup site that contains 3 pages all linked to each other
+It is a homeschoolers meetup site that contains 3 pages all linked to each other.
+It contains three pages, the home page that has the details about the event including the date, venue, main program, speakers and the partners. The about page hasa description if the even and its logo. the tickets page allows one to book a ticket for the days they are available and their lunch
+
 > 
 
 > ![screenshot](img/image1.png)
@@ -14,8 +16,7 @@ It is a homeschoolers meetup site that contains 3 pages all linked to each other
 ## Built With
 
 - HTML &,
-- CSS,
-- Linters
+- CSS
 
 ## Live Demo
 
@@ -41,6 +42,7 @@ Open the index.html file in any browser or edit using Visual Code or the prefere
 
 - Github: [@phlylis05](https://github.com/phlylis05)
 - Linkedin: [PhylisChepchumba](https://linkedin.com/PhylisChepchumba)
+- Email: [Phylis Chepchumba](chumba.phyl@gmail.com)
 
 ## 🤝 Contributing
 
