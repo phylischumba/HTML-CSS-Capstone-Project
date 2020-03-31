@@ -6,6 +6,7 @@
     font-style: normal;
     font-size: 2em;
     padding: 10px;
+    cursor: pointer;
   }
 
   .small-nav ul li {
@@ -42,7 +43,7 @@
     margin-top: 3.5em;
   }
 
-  .section4 {
+  .about-details {
     text-align: center;
     margin: 1em;
   }
@@ -84,86 +85,8 @@ header {
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-}
-
-.first-nav {
-  width: 100%;
-  background-color: #272a31;
-  padding: 0.5em;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.first-nav a {
-  text-decoration: none;
-  color: white;
-  padding-right: 1em;
-}
-
-.second-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-}
-
-.right-second-nav {
-  display: flex;
-  justify-content: space-evenly;
-  width: 25%;
-  margin: 1em;
-}
-
-.right-second-nav a {
-  color: #272a31;
-  text-decoration: none;
-}
-
-.second-nav img {
-  height: 60px;
-  margin-left: 1.5em;
-}
-
-.small-screen-nav {
-  background-color: #fff;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-}
-
-.small-nav {
-  width: 50%;
-  position: sticky;
-  top: 0;
-  background: #fff;
-}
-
-.small-nav label,
-#hamburger {
-  display: none;
-}
-
-.small-nav ul {
-  list-style-type: none;
-  margin: 0;
   padding: 0;
-}
-
-.small-nav ul li {
-  padding: 5px;
-}
-
-.small-nav ul li a {
-  color: #272a31;
-  text-decoration: none;
-}
-
-.small-screen-nav img {
-  width: 25%;
-  height: 60px;
-  margin-right: 10px;
+  margin: 0;
 }
 
 .about-main {
@@ -212,7 +135,7 @@ hr {
   font-size: 1em;
 }
 
-.section4 {
+.about-details {
   text-align: center;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -220,21 +143,22 @@ hr {
   border-bottom: 1px solid #9ca2ac;
 }
 
-.section4 h1 {
+.about-details h1 {
   color: #272a31;
   font-size: 2em;
   font-weight: 500;
   margin-bottom: 0;
 }
 
-.section4 p {
+.about-details p {
   padding-top: 2em;
   padding-bottom: 1em;
   line-height: 1.5em;
 }
 
 .logo {
-  padding: 1em;
+  width: 10%;
+  padding: 2em 4em;
   border: 1px solid #9ca2ac;
 }
 
@@ -284,12 +208,12 @@ hr {
   color: #272a31;
 }
 
-.section5 {
+.past-meetups {
   padding: 3em;
   margin-bottom: 2em;
 }
 
-.section5 h1 {
+.past-meetups h1 {
   font-weight: 500;
   font-size: 2em;
   margin-bottom: 0;
@@ -308,4 +232,12 @@ hr {
   font-size: larger;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.about-footer img {
+  width: 8%;
+  margin-right: 5px;
 }

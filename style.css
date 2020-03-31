@@ -41,6 +41,7 @@
     font-style: normal;
     font-size: 2em;
     padding: 10px;
+    cursor: pointer;
   }
 
   .small-nav ul li {
@@ -114,7 +115,7 @@
     display: block !important;
   }
 
-  footer,
+  .main-footer,
   .partner-section {
     display: none !important;
   }
@@ -122,7 +123,8 @@
 
 body {
   overflow-x: hidden;
-  
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -136,15 +138,24 @@ header {
 .first-nav {
   width: 100%;
   background-color: #272a31;
-  padding: 0.5em;
+  padding: 1em;
   display: flex;
   justify-content: flex-end;
+  margin-right: 6em;
+  box-sizing: border-box;
 }
 
 .first-nav a {
   text-decoration: none;
   color: #d3d3d3;
-  padding-right: 1em;
+  padding-right: 2em;
+}
+
+.first-nav a:hover,
+.right-second-nav a:hover {
+  color: #ec5242;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .second-nav {
@@ -166,13 +177,14 @@ header {
   text-decoration: none;
 }
 
-footer img {
+.main-footer img {
+  width: 8%;
   margin-right: 5px;
 }
 
 .second-nav img {
   margin-left: 1.5em;
-  height: 60px;
+  height: 70px;
 }
 
 .small-screen-nav {
@@ -201,8 +213,7 @@ footer img {
 }
 
 .all-program-link a,
-.section2 h1,
-footer h2 {
+.expected-activities h1 {
   color: #d3d3d3;
 }
 
@@ -212,11 +223,11 @@ footer h2 {
 }
 
 .small-screen-nav img {
-  width: 25%;
+  width: 10%;
   height: 60px;
 }
 
-.section1 {
+.page-details {
   background-image: url("https://www.carbonads.net/hubfs/carbon/images/hero-bg-home.svg");
   background-position: center;
   background-size: initial;
@@ -229,6 +240,7 @@ footer h2 {
   text-align: left;
   color: #272a31;
   margin-left: 6rem;
+  margin-top: 6em;
 }
 
 .home-page h3 {
@@ -241,12 +253,19 @@ footer h2 {
 }
 
 .home-page h1 {
-  font-size: 4em;
+  font-size: 5.5em;
   font-family: 'Oswald', sans-serif;
   width: 70%;
   color: #ec5242;
   margin: 0;
   padding: 0;
+  background-image: url(img/orange.jpg);
+  -webkit-text-fill-color: transparent;
+  background-size: contain;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 900;
 }
 
 .home-page p {
@@ -264,7 +283,7 @@ footer h2 {
   padding-bottom: 100px;
 }
 
-.section2 {
+.expected-activities {
   background-color: #272a31;
   text-align: center;
   padding: 3em;
@@ -305,7 +324,7 @@ footer h2 {
   padding: 3em;
 }
 
-.section2 h1 {
+.expected-activities h1 {
   margin-bottom: 0;
   font-family: 'Oswald', sans-serif;
 }
@@ -317,12 +336,12 @@ hr {
   border: none;
 }
 
-.section3 {
+.expected-speakers {
   padding-top: 2em;
   font-family: 'Lato', sans-serif;
 }
 
-.section3 h1 {
+.expected-speakers h1 {
   text-align: center;
   font-weight: 500;
   margin-bottom: 0;
@@ -341,8 +360,9 @@ hr {
 }
 
 .speakers img {
-  width: 30%;
-  height: 142px;
+  width: 35%;
+  height: 150px;
+  border: 3px solid #ec5242;
 }
 
 .speakers {
@@ -383,23 +403,27 @@ hr {
   text-align: center;
   padding-bottom: 3em;
   color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
 }
 
 .partners {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Lato', sans-serif;
+  margin-top: 2em; 
 }
 
-.partners img {
-  width: 10%;
-  background-color: #fff;
+.partners i {
+  font-size: 3.5em;
   margin-right: 1em;
-  margin-top: 1em;
 }
 
-footer {
+.partner-section h1 {
+  /* font-family: 'Lato', sans-serif ; */
+  margin-bottom: 0;
+}
+
+.main-footer {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -407,4 +431,6 @@ footer {
   background-color: #d3d3d3;
   padding: 2em;
   font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  
 }
