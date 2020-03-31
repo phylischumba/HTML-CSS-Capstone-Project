@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tickets.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/668d372fa7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>tickets</title>
+</head>
+<body>
+    <nav class="small-screen-nav">
+        <div class="small-nav">
+       
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+    
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            </ul>
+        </div>
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/b2c5a810468367.560e5735b73dc.jpg" alt="">
+      </nav>
+    <header>
+        <nav class="first-nav">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#">English</a>
+            <a href="#">My Page</a>
+            <a href="#">Log out</a>
+        </nav>
+
+        <nav class="second-nav">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/b2c5a810468367.560e5735b73dc.jpg" alt="">
+            <div class="right-second-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="tickets.html">Tickets</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="tickets-selection">
+            <h1>Select Your Tickects</h1>
+            <hr>
+            <p><span class="colored-text">Step 1:</span> Please select the day when you want to join the Home schoolers meetup event 2020</p>
+            <div class="table">
+            <table>
+                <tr>
+                  <th>Ticket</th>
+                  <th>One-day ticket</th>
+                  <th colspan="2">2day ticket</th>
+                  <th>CC Affiliate/Partner</th>
+                </tr>
+                <tr>
+                  <td>Date</td>
+                  <td>16th July (Thur)</td>
+                  <td>17th July (Fri)</td>
+                  <td>16th-17th July (Thur-Fri)</td>
+                  <td>16th-17th July (Thur-Fri)</td>
+                </tr>
+                <tr class="colored-text">
+                    <td>Normal</td>
+                    <td><label for="ticket1">$70</label>
+                        <input type="radio" id="ticket1" name="ticket" value="seventy"> 
+                    </td>
+                    <td><label for="ticket2">$70</label>
+                        <input type="radio" id="ticket2" name="ticket" value="seventy"> 
+                    </td>
+                    <td><label for="ticket3">$120</label>
+                        <input type="radio" id="ticket3" name="ticket" value="hundred-and-twenty"> 
+                    </td>
+                    <td><label for="ticket4">$70</label>
+                        <input type="radio" id="ticket4" name="ticket" value="eighty"> 
+                    </td>
+                </tr>
+                <tr class="colored-text">
+                    <td>Student</td>
+                    <td><label for="ticket5">$50</label>
+                        <input type="radio" id="ticket5" name="ticket-day2" value="fifty"> </td>
+                    <td><label for="ticket6">$70</label>
+                        <input type="radio" id="ticket6" name="ticket-day2" value="seventy"> </td>
+                    <td><label for="ticket7">$100</label>
+                        <input type="radio" id="ticket7" name="ticket-day2" value="hundred"> </td>
+                    <td>
+                        <label for="ticket8">$80</label>
+                        <input type="radio" id="ticket8" name="ticket-day2" value="eighty"> 
+                    </td>
+                </tr>
+
+              </table>
+            </div>
+        </section>
+        <div class="rotated-div"></div>
+        <section class="lunch-selection">
+            <h1>Select Your Lunch</h1>
+            <hr>
+            <p><span class="colored-text">Step 2:</span> Please select your lunch for registered date. There will be no further costs for the lunch</p>
+            <div class="flex-item">
+                <h5>16th July (Thur)</h5>
+                <form>    
+                    <input type="radio" id="meal1" name="meal" value="chicken">
+                    <label for="meal1"> Fried Chicken, Mac and Cheese</label><br>
+                    <input type="radio" id="meal2" name="meal" value="taco">
+                    <label for="meal2">Fajita and Taco Bar</label><br>
+                    <input type="radio" id="meal3" name="meal" value="pizza">
+                    <label for="meal3">Pizza</label><br>
+                  </form>
+            </div>
+            <div class="flex-item">
+                <h5>17th July (Thur)</h5>
+                <form>
+                    
+                    <input type="radio" id="meal4" name="meal" value="chicken">
+                    <label for="meal4">Grilled Chicken and Cherry Tomato Skewers</label><br>
+                    <input type="radio" id="meal5" name="meal" value="vegetable">
+                    <label for="meal5">Vegetarian Vegetable and Couscous Salad</label><br>
+                    <input type="radio" id="meal6" name="meal" value="pork">
+                    <label for="meal6">pork sandwiches</label><br>
+                  </form>
+
+            </div>
+                <button>SUBMIT</button>        
+        </section>
+    </main>
+    <footer class="tickets-footer">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/b2c5a810468367.560e5735b73dc.jpg" alt="">
+        <span>2020 Homschooling.org. Some Rights Reserved</span>
+
+
+    </footer>
+</body>
+</html>

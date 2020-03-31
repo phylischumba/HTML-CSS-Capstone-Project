@@ -1,0 +1,242 @@
+@media screen and (max-width: 768px) {
+  .small-nav label {
+    display: inherit !important;
+    color: #ec5242;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .small-nav ul li {
+    display: block;
+  }
+
+  .small-nav ul {
+    display: none;
+  }
+
+  .small-nav input:checked ~ ul {
+    display: block;
+  }
+
+  header {
+    display: none;
+  }
+
+  section.about-page {
+    width: 100%;
+    color: #272a31;
+  }
+
+  section.about-page p {
+    font-size: 18px;
+    width: 92%;
+  }
+
+  section.about-page h1 {
+    font-size: 20px !important;
+  }
+
+  div.contact-email {
+    margin-top: 3.5em;
+  }
+
+  .about-details {
+    text-align: center;
+    margin: 1em;
+  }
+
+  .meetings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.past-meetings,
+  div.past-meetings1 {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  div.past-meetings1 {
+    right: 15px;
+  }
+}
+
+@media (max-width: 1100px) {
+  section.about-page h1 {
+    font-size: 2em;
+  }
+
+  div.contact-email {
+    padding-top: 0;
+    padding-bottom: 2em;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.about-main {
+  text-align: center;
+  height: 80vh;
+  padding-top: 2.5em;
+}
+
+.about-page {
+  background-image: url("https://www.carbonads.net/hubfs/carbon/images/hero-bg-home.svg");
+  background-position: center;
+  background-size: initial;
+  padding-top: 4em;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  margin-top: 2em;
+}
+
+hr {
+  width: 5%;
+  height: 4px;
+  background-color: #ec5242;
+  border: none;
+}
+
+.about-page h1 {
+  width: 65%;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+  color: #ec5242;
+  margin: auto;
+  padding: 0;
+}
+
+.with-border {
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  background-color: #fff;
+  border: 1px solid #9ca2ac;
+}
+
+.contact-email {
+  padding-top: 1em;
+  font-size: 1em;
+}
+
+.about-details {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-top: 0;
+  border-bottom: 1px solid #9ca2ac;
+}
+
+.about-details h1 {
+  color: #272a31;
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.about-details p {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+.logo {
+  width: 10%;
+  padding: 2em 4em;
+  border: 1px solid #9ca2ac;
+}
+
+.meetings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  color: #272a31;
+}
+
+.past-meetings {
+  background-image: url("https://www.freecodecamp.org/news/content/images/2019/08/meetup-talk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 28%;
+  margin-right: 2em;
+  position: relative;
+}
+
+.past-meetings1 {
+  background-image: url('https://www.coding-girls.com/sites/default/files/styles/cms_bootstrap_1_2/public/blog-images/Meetup%20at%20math%20school.jpg?itok=TCBpziap');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  height: 300px;
+  width: 28%;
+  position: relative;
+}
+
+.layer {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.meeting-spans {
+  position: relative;
+  top: 4em;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.past-meetups {
+  padding: 3em;
+  margin-bottom: 2em;
+}
+
+.past-meetups h1 {
+  font-weight: 500;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.year {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.about-footer {
+  background-color: #272a31;
+  padding: 2em;
+  color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.about-footer img {
+  width: 8%;
+  margin-right: 5px;
+}
