@@ -3,8 +3,6 @@ This is a repository for the final project in the first section of the main tech
 - It is a homeschoolers meetup site that contains 3 pages all linked to each other.
 - It contains three pages, the home page that has the details about the event including the date, venue, main program, speakers and the partners. The about page hasa description if the even and its logo. the tickets page allows one to book a ticket for the days they are available and their lunch
 
-> 
-
 > ![screenshot](img/image1.png)
 
 
@@ -12,6 +10,7 @@ This is a repository for the final project in the first section of the main tech
 
 
 > ![screenshot](img/image3.png)
+
 
 ## Built With
 
@@ -21,6 +20,10 @@ This is a repository for the final project in the first section of the main tech
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/Phylis05/HTML-CSS-Capstone-Project/f44f65ffee1bdc6ae07347482a9a52484a9be30a/index.html)
+- CSS,
+- Linters
+
+## Live Demo
 
 ## Getting Started
 
@@ -33,6 +36,7 @@ A browser of your choice preferrably Chrome.
 ### Setup
 
 Fork this project to your local machine
+
 Open the index.html file in any browser or edit using Visual Code or the preference IDE for web development
 
 
@@ -43,6 +47,7 @@ Open the index.html file in any browser or edit using Visual Code or the prefere
 - Github: [@phlylis05](https://github.com/phlylis05)
 - Linkedin: [PhylisChepchumba](https://linkedin.com/PhylisChepchumba)
 - Email: chumba.phyl@gmail.com
+
 
 ## 🤝 Contributing
 
@@ -63,4 +68,8 @@ Give a ⭐️ if you like this project!!
 ## 📝 License
 
 - The original design is licenced under the [Creative Commons 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
+- The Odin Project
+- [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
+## 📝 License
+The [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) is licenced under the [Creative Commons 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licence
